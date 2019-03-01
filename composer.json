@@ -1,0 +1,21 @@
+{
+    "name": "longbob/jphp-web-framework",
+    "description": "php web framework run in jvm.",
+    "type": "project",
+    "license": "APL2.0",
+    "authors": [
+        {
+            "name": "longbob",
+            "email": "jjcbs@vip.qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "jPHPWeb\\" : "src/"
+        }
+    }
+}
