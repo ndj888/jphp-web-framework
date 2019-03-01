@@ -26,7 +26,6 @@ class RouterConfigBean extends SimpleRpc
      * @var array any ['/error' => error::class]
      */
     protected $errorPage;
-    protected $filePath = 'router.php';
 
     /**
      * @return array
@@ -58,22 +57,6 @@ class RouterConfigBean extends SimpleRpc
     public function setErrorPage(array $errorPage): void
     {
         $this->errorPage = $errorPage;
-    }
-
-    /**
-     * @return string
-     */
-    public function getFilePath(): string
-    {
-        return $this->filePath;
-    }
-
-    /**
-     * @param string $filePath
-     */
-    public function setFilePath(string $filePath): void
-    {
-        $this->filePath = $filePath;
     }
 
 

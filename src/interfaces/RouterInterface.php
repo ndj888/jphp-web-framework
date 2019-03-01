@@ -21,9 +21,9 @@ interface RouterInterface
      * bind a router to jphp server
      * @param string $routerName
      * @param string $method
-     * @param \Closure $fun | param HttpServerRequest $req HttpServerResponse $res
+     * @param mixed $res
      * @return mixed
      */
-    public static function bind(string $routerName , string $method , \Closure $fun);
+    public static function bind(string $routerName , string $method , $res);
 
 }
