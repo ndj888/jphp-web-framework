@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "099c2222ab9a4c504cdb3b6639f62038",
+    "packages": [
+        {
+            "name": "ndj888/com_jjcbs_tool",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ndj888/com_jjcbs_tool.git",
+                "reference": "6c86980182d93ce66df45768fa7864b5df32e63d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ndj888/com_jjcbs_tool/zipball/6c86980182d93ce66df45768fa7864b5df32e63d",
+                "reference": "6c86980182d93ce66df45768fa7864b5df32e63d",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "clue/phar-composer": "v1.0.0",
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "com_jjcbs\\": "src/com_jjcbs/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "longbob",
+                    "email": "jjcbs@vip.qq.com",
+                    "homepage": "http://www.yutou88.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Publish package about jjcbs use some class file on working!",
+            "keywords": [
+                "com_jjcbs",
+                "mytool"
+            ],
+            "time": "2018-09-07T07:10:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "ndj888/com_jjcbs_tool": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
