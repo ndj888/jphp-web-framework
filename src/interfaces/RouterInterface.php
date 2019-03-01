@@ -26,14 +26,4 @@ interface RouterInterface
      */
     public static function bind(string $routerName , string $method , \Closure $fun);
 
-    /**
-     * Get router table on array
-     * @return array
-     */
-    public static function getRouterTable() : array;
-
-    /**
-     * print router info in console
-     */
-    public static function printRouterTable():void ;
 }
